@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Sakura Ginza là landing page nhà hàng Nhật cao cấp tại Tokyo với thực đơn sushi, sashimi, chef section, gallery, đánh giá và đặt bàn trực tuyến."
+    />
+    <meta name="keywords" content="nhà hàng Nhật, sushi, sashimi, Japanese restaurant, Tokyo, đặt bàn" />
+    <meta name="author" content="Sakura Ginza" />
+    <meta property="og:title" content="Sakura Ginza - Luxury Japanese Restaurant" />
+    <meta property="og:description" content="Trải nghiệm ẩm thực Nhật cao cấp, tối giản và sang trọng." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?auto=format&fit=crop&w=1200&q=80" />
+    <title>Sakura Ginza - Luxury Japanese Restaurant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Playfair+Display:wght@600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="loader" aria-label="Đang tải website">
+      <div class="loader-mark">桜</div>
+      <span>Sakura Ginza</span>
+    </div>
+    <div class="scroll-progress" aria-hidden="true"></div>
+
+    <header class="site-header" id="top">
+      <a class="brand" href="#home" aria-label="Sakura Ginza">
+        <span class="brand-symbol">桜</span>
+        <span>
+          <strong>Sakura Ginza</strong>
+          <small>Luxury Japanese Restaurant</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Mở menu" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <nav class="site-nav" aria-label="Điều hướng chính">
+        <a href="#home">Trang chủ</a>
+        <a href="#menu">Thực đơn</a>
+        <a href="#signature">Món nổi bật</a>
+        <a href="#about">Giới thiệu</a>
+        <a href="#booking">Đặt bàn</a>
+        <a href="#contact">Liên hệ</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="hero-bg" aria-hidden="true"></div>
+        <div class="hero-overlay" aria-hidden="true"></div>
+        <div class="hero-content reveal">
+          <p class="eyebrow">Tokyo Fine Dining</p>
+          <h1>Ẩm thực Nhật cao cấp giữa nhịp sống hiện đại.</h1>
+          <p>
+            Sakura Ginza mang đến trải nghiệm sushi, sashimi và omakase trong
+            không gian tối giản, sang trọng, tinh tế như một buổi tối ở Tokyo.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary ripple" href="#booking">Đặt bàn ngay</a>
+            <a class="btn btn-ghost ripple" href="#menu">Xem thực đơn</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section about-section">
+        <div class="about-image reveal">
+          <img
+            src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=900&q=80"
+            alt="Không gian nhà hàng Nhật cao cấp"
+            loading="lazy"
+          />
+        </div>
+        <div class="about-content reveal">
+          <p class="eyebrow">Giới thiệu nhà hàng</p>
+          <h2>Tối giản, tĩnh tại và chuẩn vị Nhật Bản.</h2>
+          <p>
+            Nhà hàng được thiết kế theo tinh thần minimal Japanese style: ít chi
+            tiết, nhiều khoảng thở, ánh sáng dịu và vật liệu tự nhiên. Mỗi món ăn
+            là sự kết hợp giữa kỹ thuật truyền thống và cảm quan hiện đại.
+          </p>
+          <div class="about-icons">
+            <article>
+              <i class="fa-solid fa-fish"></i>
+              <strong>Hải sản tuyển chọn</strong>
+            </article>
+            <article>
+              <i class="fa-solid fa-bowl-food"></i>
+              <strong>Omakase theo mùa</strong>
+            </article>
+            <article>
+              <i class="fa-solid fa-award"></i>
+              <strong>Dịch vụ chuẩn fine dining</strong>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="menu" class="section menu-section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Thực đơn nổi bật</p>
+          <h2>Những món ăn được yêu thích</h2>
+          <p>Card món ăn có hiệu ứng hover, ảnh zoom nhẹ, rating và nút đặt món.</p>
+        </div>
+
+        <div class="menu-grid" id="signature">
+          <article class="menu-card reveal">
+            <div class="menu-image">
+              <img src="https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?auto=format&fit=crop&w=700&q=80" alt="Sushi cá hồi" loading="lazy" />
+            </div>
+            <div class="menu-body">
+              <span>Sakura Signature</span>
+              <h3>Sushi cá hồi Ginza</h3>
+              <p>Cá hồi tươi, cơm giấm Nhật, wasabi thật và shoyu ủ tự nhiên.</p>
+              <div class="rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+              <div class="menu-footer"><strong>289.000đ</strong><button class="ripple" type="button">Đặt món</button></div>
+            </div>
+          </article>
+
+          <article class="menu-card reveal">
+            <div class="menu-image">
+              <img src="https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56?auto=format&fit=crop&w=700&q=80" alt="Sashimi tổng hợp" loading="lazy" />
+            </div>
+            <div class="menu-body">
+              <span>Chef Choice</span>
+              <h3>Sashimi Moriwase</h3>
+              <p>Cá hồi, cá ngừ, sò điệp, bạch tuộc và rau trang trí theo mùa.</p>
+              <div class="rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></div>
+              <div class="menu-footer"><strong>420.000đ</strong><button class="ripple" type="button">Đặt món</button></div>
+            </div>
+          </article>
+
+          <article class="menu-card reveal">
+            <div class="menu-image">
+              <img src="https://images.unsplash.com/photo-1617093727343-374698b1b08d?auto=format&fit=crop&w=700&q=80" alt="Ramen Tonkotsu" loading="lazy" />
+            </div>
+            <div class="menu-body">
+              <span>Warm Bowl</span>
+              <h3>Ramen Tonkotsu</h3>
+              <p>Nước dùng xương hầm 12 giờ, xá xíu mềm và trứng ajitama.</p>
+              <div class="rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></div>
+              <div class="menu-footer"><strong>198.000đ</strong><button class="ripple" type="button">Đặt món</button></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section chef-section">
+        <div class="chef-content reveal">
+          <p class="eyebrow">Executive Chef</p>
+          <h2>Chef Haruto Nakamura</h2>
+          <p>
+            Với hơn 18 năm kinh nghiệm tại Tokyo và Kyoto, Chef Haruto theo đuổi
+            triết lý “ít nhưng đủ”: giữ trọn vị nguyên bản của nguyên liệu, chăm
+            chút từng lát cắt và từng nhịp phục vụ.
+          </p>
+          <div class="chef-stats">
+            <span><strong>18+</strong> năm kinh nghiệm</span>
+            <span><strong>6</strong> mùa omakase</span>
+            <span><strong>12k+</strong> thực khách</span>
+          </div>
+        </div>
+        <div class="chef-image reveal">
+          <img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?auto=format&fit=crop&w=900&q=80" alt="Đầu bếp nhà hàng Nhật" loading="lazy" />
+        </div>
+      </section>
+
+      <section class="section gallery-section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Gallery</p>
+          <h2>Không gian và món ăn</h2>
+          <p>Bấm vào hình để xem lightbox.</p>
+        </div>
+        <div class="gallery-grid">
+          <button class="gallery-item tall reveal" type="button" data-full="https://images.unsplash.com/photo-1579027989536-b7b1f875659b?auto=format&fit=crop&w=1400&q=80">
+            <img src="https://images.unsplash.com/photo-1579027989536-b7b1f875659b?auto=format&fit=crop&w=650&q=80" alt="Nhà hàng Nhật sang trọng" loading="lazy" />
+          </button>
+          <button class="gallery-item reveal" type="button" data-full="https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?auto=format&fit=crop&w=1400&q=80">
+            <img src="https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?auto=format&fit=crop&w=650&q=80" alt="Sushi cao cấp" loading="lazy" />
+          </button>
+          <button class="gallery-item reveal" type="button" data-full="https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56?auto=format&fit=crop&w=1400&q=80">
+            <img src="https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56?auto=format&fit=crop&w=650&q=80" alt="Sashimi tươi" loading="lazy" />
+          </button>
+          <button class="gallery-item wide reveal" type="button" data-full="https://images.unsplash.com/photo-1617093727343-374698b1b08d?auto=format&fit=crop&w=1400&q=80">
+            <img src="https://images.unsplash.com/photo-1617093727343-374698b1b08d?auto=format&fit=crop&w=900&q=80" alt="Ramen Nhật" loading="lazy" />
+          </button>
+        </div>
+      </section>
+
+      <section class="section testimonials-section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Khách hàng đánh giá</p>
+          <h2>Những lời khen dành cho Sakura Ginza</h2>
+        </div>
+        <div class="testimonial-shell reveal">
+          <button class="carousel-btn" type="button" data-carousel="prev" aria-label="Đánh giá trước"><i class="fa-solid fa-chevron-left"></i></button>
+          <article class="testimonial-card">
+            <img id="reviewAvatar" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=180&q=80" alt="Avatar khách hàng" />
+            <div class="rating" id="reviewStars"></div>
+            <p id="reviewText"></p>
+            <strong id="reviewName"></strong>
+          </article>
+          <button class="carousel-btn" type="button" data-carousel="next" aria-label="Đánh giá tiếp theo"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+      </section>
+
+      <section class="video-section reveal">
+        <div class="video-overlay"></div>
+        <div class="video-content">
+          <p class="eyebrow">Video giới thiệu</p>
+          <h2>Một đêm fine dining tại Tokyo</h2>
+          <button class="play-button ripple" type="button" aria-label="Phát video"><i class="fa-solid fa-play"></i></button>
+        </div>
+      </section>
+
+      <section id="booking" class="section booking-section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Đặt bàn</p>
+          <h2>Giữ chỗ cho buổi tối của bạn</h2>
+          <p>Form có validation bằng JavaScript và thông báo ngay trên giao diện.</p>
+        </div>
+        <form class="booking-form reveal" id="bookingForm" novalidate>
+          <label>Họ tên<input name="name" type="text" placeholder="Nguyễn Minh Anh" required /></label>
+          <label>Số điện thoại<input name="phone" type="tel" placeholder="0901 234 567" required /></label>
+          <label>Email<input name="email" type="email" placeholder="you@example.com" required /></label>
+          <label>Ngày<input name="date" type="date" required /></label>
+          <label>Giờ<input name="time" type="time" required /></label>
+          <label>Số người<input name="guests" type="number" min="1" max="20" value="2" required /></label>
+          <label class="full">Ghi chú<textarea name="note" placeholder="Vị trí ngồi, dị ứng thực phẩm hoặc dịp đặc biệt"></textarea></label>
+          <button class="btn btn-primary ripple full" type="submit">Đặt bàn</button>
+          <p class="form-message full" id="formMessage" role="status"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer id="contact" class="footer">
+      <div class="footer-brand">
+        <span class="brand-symbol">桜</span>
+        <div>
+          <strong>Sakura Ginza</strong>
+          <p>Luxury Japanese Restaurant tại Tokyo.</p>
+        </div>
+      </div>
+      <div class="footer-info">
+        <span><i class="fa-solid fa-location-dot"></i> 5-12 Ginza, Chuo City, Tokyo</span>
+        <span><i class="fa-solid fa-phone"></i> +81 3 8888 2026</span>
+        <span><i class="fa-solid fa-envelope"></i> reservation@sakuraginza.jp</span>
+        <a href="https://maps.google.com" target="_blank" rel="noreferrer"><i class="fa-solid fa-map-location-dot"></i> Google Maps</a>
+      </div>
+      <div class="footer-social">
+        <a href="https://facebook.com" target="_blank" rel="noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://instagram.com" target="_blank" rel="noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+      <p class="copyright">Copyright © 2026 Sakura Ginza. All rights reserved.</p>
+    </footer>
+
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+      <button type="button" aria-label="Đóng ảnh"><i class="fa-solid fa-xmark"></i></button>
+      <img src="" alt="Ảnh phóng to từ gallery" />
+    </div>
+
+    <div class="video-modal" id="videoModal" aria-hidden="true">
+      <button type="button" aria-label="Đóng video"><i class="fa-solid fa-xmark"></i></button>
+      <div class="video-frame">
+        <i class="fa-solid fa-play"></i>
+        <p>Video giới thiệu nhà hàng Sakura Ginza</p>
+      </div>
+    </div>
+
+    <button class="back-to-top" type="button" aria-label="Lên đầu trang"><i class="fa-solid fa-arrow-up"></i></button>
+    <script src="script.js"></script>
+  </body>
+</html>
